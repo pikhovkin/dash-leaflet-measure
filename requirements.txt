@@ -1,0 +1,7 @@
+# dash is required to call `build:py`
+Werkzeug<2.1.0
+dash==2.0.0
+palettable
+pyyaml
+colorcet
+geobuf

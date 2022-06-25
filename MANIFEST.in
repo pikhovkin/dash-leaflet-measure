@@ -1,0 +1,6 @@
+include dash_leaflet_measure/*.js
+include dash_leaflet_measure/*.map
+include dash_leaflet_measure/*.json
+include README.md
+include LICENSE
+include package.json

@@ -1,0 +1,13 @@
+Package: dashLeafletMeasure
+Title: leaflet-measure component for Dash
+Version: 0.1.0
+Description: leaflet-measure component for Dash
+Depends: R (>= 3.0.2)
+Imports: 
+Suggests: 
+License: MIT + file LICENSE
+URL: https://github.com/pikhovkin/dash-leaflet-measure
+BugReports: https://github.com/pikhovkin/dash-leaflet-measure/issues
+Encoding: UTF-8
+LazyData: true
+KeepSource: true

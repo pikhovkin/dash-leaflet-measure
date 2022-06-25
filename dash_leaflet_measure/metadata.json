@@ -1,0 +1,224 @@
+{
+  "src/lib/components/MeasureControl.react.js": {
+    "description": "",
+    "displayName": "MeasureControl",
+    "methods": [],
+    "props": {
+      "position": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "\"topleft\"",
+              "computed": false
+            },
+            {
+              "value": "\"topright\"",
+              "computed": false
+            },
+            {
+              "value": "\"bottomleft\"",
+              "computed": false
+            },
+            {
+              "value": "\"bottomright\"",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "The position of this component."
+      },
+      "primaryLengthUnit": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "\"feet\"",
+              "computed": false
+            },
+            {
+              "value": "\"meters\"",
+              "computed": false
+            },
+            {
+              "value": "\"miles\"",
+              "computed": false
+            },
+            {
+              "value": "\"kilometers\"",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "The units used to display length results. secondaryLengthUnit is optional."
+      },
+      "secondaryLengthUnit": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "\"feet\"",
+              "computed": false
+            },
+            {
+              "value": "\"meters\"",
+              "computed": false
+            },
+            {
+              "value": "\"miles\"",
+              "computed": false
+            },
+            {
+              "value": "\"kilometers\"",
+              "computed": false
+            },
+            {
+              "value": "undefined",
+              "computed": true
+            }
+          ]
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "undefined",
+          "computed": true
+        }
+      },
+      "primaryAreaUnit": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "\"acres\"",
+              "computed": false
+            },
+            {
+              "value": "\"hectares\"",
+              "computed": false
+            },
+            {
+              "value": "\"sqfeet\"",
+              "computed": false
+            },
+            {
+              "value": "\"sqmeters\"",
+              "computed": false
+            },
+            {
+              "value": "\"sqmiles\"",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "The units used to display area results. secondaryAreaUnit is optional."
+      },
+      "secondaryAreaUnit": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "\"acres\"",
+              "computed": false
+            },
+            {
+              "value": "\"hectares\"",
+              "computed": false
+            },
+            {
+              "value": "\"sqfeet\"",
+              "computed": false
+            },
+            {
+              "value": "\"sqmeters\"",
+              "computed": false
+            },
+            {
+              "value": "\"sqmiles\"",
+              "computed": false
+            },
+            {
+              "value": "undefined",
+              "computed": true
+            }
+          ]
+        },
+        "required": false,
+        "description": ""
+      },
+      "activeColor": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The color to use for map features rendered while actively perfoming a measurement."
+      },
+      "completedColor": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The color to use for features generated from a completed measurement."
+      },
+      "popupOptions": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "The options applied to the popup of the resulting measure feature."
+      },
+      "captureZIndex": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "The Z-index of the marker used to capture measure clicks."
+      },
+      "decPoint": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The decimal point and thousands separator used when displaying measurements."
+      },
+      "thousandsSep": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The children of this component (dynamic)."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "A custom class name to assign to the image. Empty by default."
+      },
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": ""
+      }
+    }
+  }
+}
